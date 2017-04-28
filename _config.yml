@@ -1,0 +1,86 @@
+menu:
+  home: /
+  categories: /categories
+  about: /about
+  archives: /archives
+  tags: /tags
+
+menu_icons:
+  enable: true
+  #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
+  home: home
+  about: user
+  categories: th
+  tags: tags
+  archives: archive
+  commonweal: heartbeat
+
+social:
+  #LinkLabel: Link
+  微博: http://weibo.com/u/2428843593/home
+  GitHub: https://github.com/Misleap
+  豆瓣: https://www.douban.com/people/143875673/
+  知乎: https://www.zhihu.com/people/yu-li-ping-97
+
+
+social_icons:
+  enable: true
+  # Icon Mappings.
+  # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
+  GitHub: github
+  Twitter: twitter
+  Weibo: weibo
+
+
+
+
+sidebar:
+  # Sidebar Position, available value: left | right
+  position: left
+  #position: right
+
+  # Sidebar Display, available value:
+  #  - post    expand on posts automatically. Default.
+  #  - always  expand for all pages automatically
+  #  - hide    expand only when click on the sidebar toggle icon.
+  #  - remove  Totally remove sidebar including sidebar toggler.
+  display: post
+
+
+# reward function added by misleap myself
+reward_comment: '打赏只是摆设，你猜我会不会猜你会不会点。。。'
+wechatpay: /images/wechatpay_reward.jpg
+alipay: /images/alipay_reward.jpg
+
+# duoshuo comment
+duoshuo: true
+duoshuo_name: misleap
+
+
+# Make duoshuo show UA
+# user_id must NOT be null when admin_enable is true!
+# you can visit http://dev.duoshuo.com get duoshuo user id.
+duoshuo_info:
+  ua_enable: true
+  admin_enable: false
+  user_id: 6340554620502279000
+  admin_nickname: MisLeap
+
+
+
+# Motion
+use_motion: true
+
+# Fancybox
+fancybox: true
+
+# Share
+jiathis: true
+jiathis_id: 2123045
+
+# disqus comment
+disqus: false
+disqus_shortname: 
+
+# google analytics
+googleTrackId: 
